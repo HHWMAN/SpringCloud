@@ -5,7 +5,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>eurekaserver</module>
-		<module>eurekaclient</module>
+		<module>eurekaservice</module>
 		<module>gateway</module>
 	</modules>
 	<parent>
