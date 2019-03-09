@@ -13,7 +13,7 @@ import java.io.InputStream;
 
 
 //请求失败美化
-@Component
+//@Component
 public class ApiFallbackProvider implements ZuulFallbackProvider {
 
     @Override

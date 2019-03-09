@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 
 //进行服务拦截
-@Component
+//@Component
 public class ApiFilter extends ZuulFilter {
 
     @Override
