@@ -155,6 +155,20 @@ public class TestApacheCurator {
         }
     }
 
+
+    //获取节点值
+    @Test
+    public  void getData(){
+        try {
+            String path = "/curator";
+            byte[] bytes= client.getData().forPath(path);
+            String result = new String(bytes);
+            System.out.println(result);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     //回调
     @Test
     public  void callBack( ){
