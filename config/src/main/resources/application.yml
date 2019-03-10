@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/HHWMAN/SpringCloud #配置git仓库地址
+          uri: https://github.com/HHWMAN/SpringCloud/ #配置git仓库地址
           searchPaths: common/config #配置仓库路径
           username: 863413076@qq.com #访问git仓库的用户名
           password: zhang:863413076 #访问git仓库的用户密码
